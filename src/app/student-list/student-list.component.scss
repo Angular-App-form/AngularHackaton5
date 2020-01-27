@@ -1,0 +1,42 @@
+.view {
+    background: url("https://www.passerellesnumeriques.org/wp-content/uploads/2016/03/PNP_Training_USC_-7.jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+tbody {
+    display: block;
+    overflow: auto;
+    height: 500px;
+  }
+  
+  thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  thead {
+    width: calc(100% - 1em)
+  }
+  
