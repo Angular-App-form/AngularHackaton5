@@ -14,10 +14,12 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './error/error.component';
 import { StudentListComponent } from './student-list/student-list.component';
+import { FormComponent } from './form/form.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'dashboard', component: AdminLoginComponent },
+  { path: 'applicantForm', component: FormComponent },
   { path: 'students', component: StudentListComponent },
   { path: '**', component: ErrorComponent }
 ]
@@ -28,7 +30,8 @@ const appRoutes: Routes = [
     AdminLoginComponent,
     LandingPageComponent,
     ErrorComponent,
-    StudentListComponent
+    StudentListComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
